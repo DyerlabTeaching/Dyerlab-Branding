@@ -21,6 +21,10 @@ contributes:
     revealjs:
       resources:
         - assets/contour.png
+      title-slide-attributes:
+        data-background-image: "_extensions/dyerlab/assets/contour.png"
+        data-background-position: "right"
+        data-background-size: "initial"
       theme: [current-theme.scss, dyerlab-revealjs.scss]
       highlight-style: arrow
       self-contained: true
