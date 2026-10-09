@@ -1,6 +1,6 @@
 project:
   title: "Dyerlab Branding"
-  output-dir: ../docs
+  output-dir: _site
   render:
     - "*.qmd"
 

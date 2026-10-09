@@ -64,8 +64,12 @@ because the hook ignores failures, that module silently stops updating.
 ## Previewing changes
 
 ```bash
-demo/render.sh          # renders demo/*.qmd with the current working tree into docs/
+demo/render.sh          # renders demo/*.qmd with the current working tree into demo/_site/
 ```
+
+Rendered output is never committed (`demo/_site/` and `docs/` are
+git-ignored): this whole repo is copied into every module, so anything
+committed here is duplicated 17 times and stays in every module's history.
 
 ## Theming
 
